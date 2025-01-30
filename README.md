@@ -1,92 +1,35 @@
-# Matriz de LED 5x5 com Teclado Matricial - Projeto Embarcatech
+# Tarefa 1 Interrupção - Embarcatech
 
-Este projeto implementa um sistema de controle para uma matriz de LED 5x5 RGB utilizando um teclado matricial, desenvolvido como parte do projeto Embarcatech.
+Neste projeto, utilizo uma matriz de LED e dois botões. Ao pressionar o botão A, o número exibido na matriz de LED é decrementado; ao pressionar o botão B, o número é incrementado. O valor exibido varia no intervalo de 0 a 9.
 
-## 🎯 Funcionalidades
+Este projeto foi desenvolvido como parte do processo seletivo da Embarcatech, com o objetivo de implementar botões para controle numérico na matriz de LED da placa Bitdoglab.
 
-### Animações (Teclas 0-9)
-- Cada tecla numérica (0-9) aciona uma animação diferente na matriz de LED
-- Cada animação possui no mínimo 5 frames
-- Animações customizadas com diferentes cores RGB e níveis de luminosidade
-- Link do video: [https://www.youtube.com/watch?v=rOERaXZPiCk](https://www.youtube.com/watch?v=rOERaXZPiCk)
+## Requisitos
 
-### Controles Especiais
-- **Tecla A**: Desliga todos os LEDs
-- **Tecla B**: Aciona todos os LEDs em azul (100% luminosidade)
-- **Tecla C**: Aciona todos os LEDs em vermelho (80% luminosidade)
-- **Tecla D**: Aciona todos os LEDs em verde (50% luminosidade)
-- **Tecla #**: Aciona todos os LEDs em branco (20% luminosidade)
-- **Tecla ***: Habilita modo de gravação (reboot) [Opcional]
-
-### Recursos Adicionais
-- Sinal sonoro via buzzer para animações específicas [Opcional]
-
-## 🛠️ Tecnologias Utilizadas
-
-- Linguagem C
-- Pico SDK
-- VS Code
-- Simulador Wokwi
-
-## 📋 Pré-requisitos
-
+- Placa Bitdoglab
+- Compilador C
 - VS Code instalado
 - Pico SDK configurado
 - Simulador Wokwi integrado ao VS Code
 - Git instalado
+- Extensão C/C++ instalada no VS Code
+- Extensão Raspberry Pi Tools instalada no VS Code
 
-## 🎯 Distribuição das Tarefas
-
-1. **Tiago Alcantara**
-   - Animação na matriz de LED (Número 0)
-   - Implementação da tecla A (Desligar todos os LEDs)
-
-2. **Suiani Almeida**
-   - Animação na matriz de LED (Número 1)
-   - Implementação da tecla B (LEDs azuis - 100% luminosidade)
-   - Criação do Readme
-
-3. **Matheus Silva**
-   - Animação na matriz de LED (Número 2)
-   - Implementação da tecla C (LEDs vermelhos - 80% luminosidade)
-
-4. **Davi Aguiar**
-   - Animação na matriz de LED (Número 3)
-   - Implementação da tecla D (LEDs verdes - 50% luminosidade)
-   - Gravação de vídeo demonstrativo
-
-5. **Ailton Gabriel**
-   - Animação na matriz de LED (Número 4)
-   - Implementação da tecla # (LEDs brancos - 20% luminosidade)
-   - Configuração do arquivo diagram.json
-
-6. **Pedro Sena**
-   - Animação na matriz de LED (Número 5)
-   - Implementação da tecla D (LEDs verdes - 50% luminosidade)
-
-7. **Keylla Kaylla**
-   - Animação na matriz de LED (Número 6)
-   - Implementação do buzzer em uma das animações
-
-## ✅ Testes
-
-- Implementados testes básicos para cada funcionalidade
-- Verificação de funcionamento das animações
-- Teste de resposta do teclado
-- Validação dos níveis de luminosidade
-
-## 🚀 Como Executar
+## Como executar
 
 1. Clone o repositório:
+
 ```bash
-git clone [https://github.com/matheusssilva991/tarefa3_gpio_embarcatech.git]
+git clone [https://github.com/matheusssilva991/tarefa_interrupcao_U4C4.git]
 ```
 
 2. Configure o ambiente de desenvolvimento seguindo as instruções do Pico SDK
 
 3. Abra o projeto no VS Code
 
-4. Execute a simulação através do Wokwi
+4. Importe o projeto através da extensão Raspberry Pi Tools
+
+5. Execute a simulação através do Wokwi ou da placa Bitdoglab
 
 ## 🤝 Equipe
 
