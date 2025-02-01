@@ -31,6 +31,16 @@ git clone [https://github.com/matheusssilva991/tarefa_interrupcao_U4C4.git]
 
 5. Execute a simulação através do Wokwi ou da placa Bitdoglab
 
+## Funcionamento
+
+O programa inicia com o número 0 exibido na matriz de LED. Ao pressionar o botão A, o número é decrementado; ao pressionar o botão B, o número é incrementado. O valor exibido varia no intervalo de 0 a 9.
+
+## Demonstração
+
+A seguir, um vídeo demonstrando o funcionamento do projeto:
+
+[![Vídeo de demonstração](https://drive.google.com/file/d/1xWgk3eGtaNvwrnG_VHLCUNvCKLbJSVZE/view?usp=drive_link)](https://drive.google.com/file/d/1xWgk3eGtaNvwrnG_VHLCUNvCKLbJSVZE/view?usp=drive_link)
+
 ## 🤝 Equipe
 
 Membros da equipe de desenvolvimento do projeto:
